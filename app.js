@@ -28,4 +28,4 @@ const getAllCountries = () => {
             }
         })
 }
-window.addEventListener("load", getAllCountries);
+getAllCountries();
