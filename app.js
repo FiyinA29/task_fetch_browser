@@ -29,3 +29,8 @@ const getAllCountries = () => {
         })
 }
 // getAllCountries();
+
+function searchCountry () {
+    document.getElementById("section").innerHTML = "";
+    getCountryByName(document.getElementById("search").value);
+}
